@@ -1,0 +1,96 @@
+/* reset css */
+
+* {
+    box-sizing: border-box;
+    padding : 0;
+    margin: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+/* index css */
+
+header, footer {
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > a, header li  {
+    display:inline-block;
+    padding: 0 10px;
+}
+
+header li h1{
+    padding: 0 30px;
+}
+
+header  a, footer {
+    color: #dbdbdb;
+}
+
+header a:hover {
+    color : #fff;
+}
+
+.slide {
+    width: 80%;
+    margin : auto;
+    min-height: 800px;
+    max-height: 80vh;
+}
+
+
+.slide img{
+    position:relative;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    transform: translate(50,50);
+    margin: 0;
+    margin-bottom : -5px;
+}
+
+footer {
+    height: 200px;
+}
+
+footer .footer-container{
+    width: 80%;
+    height : 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+address, footer .sns {
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 0.7rem;
+    font-weight: 2px;
+    display:inline-block;
+}
+
+address {
+    text-align: center;
+}
+
+footer .div-line{
+    display: inline-block;
+    width: 1px;
+    height: 50%;
+    border-left: solid 1px #6b6b6b;
+}
